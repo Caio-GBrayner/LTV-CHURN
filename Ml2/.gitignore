@@ -1,0 +1,50 @@
+*.pyc
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+
+# Environment variables
+.env
+
+# Data files
+data/*.csv
+!data/.gitkeep
+
+# Model files
+models/*.pkl
+models/*.h5
+models/*.png
+models/*.csv
+!models/.gitkeep
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+notebooks/*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Flask
+instance/
+.webassets-cache
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
